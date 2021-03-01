@@ -1,0 +1,26 @@
+/*.split-pane{*/
+/*    -fx-background-color:  #FFF8DC;*/
+/*}*/
+.label{
+    -fx-text-fill: #6B4C19;
+    -fx-font-size: 14;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.background{
+    -fx-background-color: #E5DBCB;
+}
+.button{
+    -fx-background-color: #3A2402;
+    -fx-text-fill: #E6D4B6;
+}
+.menu .left-container {
+    -fx-background-color: black;
+}
+.button:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+.Label_Head{
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+}
