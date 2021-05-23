@@ -1,0 +1,8 @@
+.split-pane{
+    -fx-background-color:  #FFF8DC;
+}
+.label{
+    -fx-text-fill: #000d1a;
+    -fx-font-size: 14;
+
+}
