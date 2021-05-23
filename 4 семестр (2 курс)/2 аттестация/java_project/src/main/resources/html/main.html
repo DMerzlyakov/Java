@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        input[type=text] {
+            width: 130px;
+            box-sizing: initial;
+            border: 2px solid #1abc9c;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: white;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=text]:focus {
+            width: 20%;
+
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #000000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a.right {
+            float: right;
+        }
+
+        .navbar a:hover {
+            background-color: #ffffff;
+            color: black;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #b3e366;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Trello</h1>
+    <p>Hello in our world.</p>
+
+
+</div>
+
+<dive class="navbar">
+    <form>
+        <input type="text" name="search" placeholder="Search..">
+    </form>
+</dive>
+
+<div class="navbar">
+    <a href="registration.html">Registration</a>
+    <a href="authorization.html">Authorization</a>
+    <a href="kanban.html">Kanban</a>
+    <a href="tasks.html">Task</a>
+</div>
+
+</body>
+</html>
+
